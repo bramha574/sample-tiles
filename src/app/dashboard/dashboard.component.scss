@@ -1,0 +1,29 @@
+.tile-container{
+    display: flex;
+    margin: 16px 8px;
+    .common-card{
+        width: 280px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: white;
+        font-size: 30px;
+        margin: 0px 8px;
+        cursor: pointer;
+
+        &.create-db-card{
+            background-color: #57b8dd;
+        }
+        
+        &.create-schema-card{
+            background-color: #65e770;
+        }
+        
+        &.create-db-user-card{
+            background-color: #222b23;
+        }
+    }
+}
+
